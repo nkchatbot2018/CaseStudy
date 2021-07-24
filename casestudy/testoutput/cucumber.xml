@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="112.223">
+    <testcase classname="To validate new user Sign up functionality for Elearning application" name="New user Sign in validation" time="35.822">
+        <system-out><![CDATA[Given User is on Registration Page..........................................passed
+And User Enters firstname "Tom".............................................passed
+And User Enters lastname "Koris"............................................passed
+And User Enters email "tk@gmail.com"........................................passed
+And User Enters username "Tom_Koris"........................................passed
+And User Enters password "Welcome%".........................................passed
+And Usre Enters confirmpwd "Welcome%".......................................passed
+When User clicks on Register button.........................................passed
+Then User should see his name "Tom Koris"...................................passed
+And User clicks on Compose..................................................passed
+And User enters recipient "abc".............................................passed
+And User enters subject "Test email 1"......................................passed
+And User enters message.....................................................passed
+When User Clicks Send button................................................passed
+Then User should see success "The message has been sent to".................passed
+When Uer Clicks on Logout...................................................passed
+Then User should be logged out..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate new user Sign up functionality for Elearning application" name="New user Sign in validation 2" time="38.362">
+        <system-out><![CDATA[Given User is on Registration Page..........................................passed
+And User Enters firstname "Sars"............................................passed
+And User Enters lastname "Fossil"...........................................passed
+And User Enters email "sf@yahoo.com"........................................passed
+And User Enters username "Sars_Fossil"......................................passed
+And User Enters password "Welcome@".........................................passed
+And Usre Enters confirmpwd "Welcome@".......................................passed
+When User clicks on Register button.........................................passed
+Then User should see his name "Sars Fossil".................................passed
+And User clicks on Compose..................................................passed
+And User enters recipient "def".............................................passed
+And User enters subject "Test email 2"......................................passed
+And User enters message.....................................................passed
+When User Clicks Send button................................................passed
+Then User should see success "The message has been sent to".................passed
+When Uer Clicks on Logout...................................................passed
+Then User should be logged out..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate new user Sign up functionality for Elearning application" name="New user Sign in validation 3" time="37.561">
+        <system-out><![CDATA[Given User is on Registration Page..........................................passed
+And User Enters firstname "Stepen"..........................................passed
+And User Enters lastname "Raul".............................................passed
+And User Enters email "sr@redif.com"........................................passed
+And User Enters username "Stepen_Raul"......................................passed
+And User Enters password "Welcome$".........................................passed
+And Usre Enters confirmpwd "Welcome$".......................................passed
+When User clicks on Register button.........................................passed
+Then User should see his name "Stepen Raul".................................passed
+And User clicks on Compose..................................................passed
+And User enters recipient "ghi".............................................passed
+And User enters subject "Test email 3"......................................passed
+And User enters message.....................................................passed
+When User Clicks Send button................................................passed
+Then User should see success "The message has been sent to".................passed
+When Uer Clicks on Logout...................................................passed
+Then User should be logged out..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
